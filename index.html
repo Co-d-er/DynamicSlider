@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html ng-app="MyApp">
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="scripts/app/app.js"></script>
+    <script src="scripts/app/controllers/myCtrl.js"></script>
+    <script src="scripts/app/directives/myDirective.js"></script>
+    <link href="scripts/app/css/MyStyle.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body ng-controller="myCtrl">
+    <p align="center">My Pictures</p>
+    <my-directive path="{{Respond[Index]}}"></my-directive>
+</body>
+</html>
